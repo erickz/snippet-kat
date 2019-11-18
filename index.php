@@ -68,6 +68,9 @@ unset($jobsFromDb);
 $johnDoeAssets = [
     ['type' => 'vehicle', 'name' => 'bike']
     ,['type' => 'document', 'name' => 'driver`s license']
+//    ['type' => 'vehicle', 'name' => 'motorcycle']
+//    ,['type' => 'document', 'name' => 'driver`s license']
+//    ,['type' => 'insurance', 'name' => 'motorcycle insurance']
 ];
 
 $me = new Candidate('John Doe', $johnDoeAssets);
